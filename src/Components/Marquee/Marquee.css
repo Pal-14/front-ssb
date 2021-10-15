@@ -1,0 +1,32 @@
+.marquee {
+    width: 100%;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;    
+}
+
+/* body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+.marquee div {
+    font: normal normal bold 50px/60px Rubik;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: animate 10s linear infinite;
+    padding-left: 100%;
+    display: inline-block;
+}
+
+@keyframes animate {
+    100%{
+        transform: translate(-100%,0);
+    }
+    
+}

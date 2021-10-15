@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
+import Marquee from "../Marquee/Marquee";
 import("../FeedPost/FeedPost.css");
 
-function FeedPost(props) {
+ function FeedPost(props) {
   const serverURL = "http://localhost:5000";
 
   function getAllUserPost() {
@@ -26,12 +27,12 @@ function FeedPost(props) {
         <div className="titleFeed">
           <h4 classname="titleh1">Accueil</h4>
           <h1 classname="titleh4">Bienvenue au Pays</h1>
-          <h2>Actuellement sur cette page : {userPostStorage.length} posts</h2>
+          <h2><Marquee />{userPostStorage.length} posts</h2>
         </div>
       </div>
 
       <section>
-        <div className="formA4">bhbbhhbbhbhbhb</div>
+        <div className="formA4"><br/>Card<br/> ******WIP******</div>
       </section>
 
       <div className="containerCardFeed">

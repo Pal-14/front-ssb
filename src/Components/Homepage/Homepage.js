@@ -31,20 +31,7 @@ useEffect(() => {
         <div className="brown">
            
 
-           <div class="container">
-                <div class="main">
-                    <div className="one">.col-sm-6 .col-md-5 .col-lg-6</div>
-                    
-                    
-                    
-                    
-                    
-                    
-                    <div className="two">.col-sm-6 .col-md-5 .offset-md-2 .col-lg-6 .offset-lg-0</div>
-                </div>
-            </div>
-
-
+ 
 
         </div>
     )
