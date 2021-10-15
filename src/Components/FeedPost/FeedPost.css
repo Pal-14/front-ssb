@@ -5,8 +5,6 @@
     height: 50%;
     left: 60px;
     top: 600px;
-    background-color: black;
-    color: white;
     width: 400px;
 }
 .containerCardFeed {
@@ -40,7 +38,7 @@ h2 {
 }
 .titleFeed {
     position: absolute;
-    top: 10%;
+    top: 2%;
     width: 100%;
     color: rgb(255, 255, 255);
     font-size: 60px;
@@ -133,3 +131,58 @@ p {
 }
 
 
+
+
+
+
+.userCard{
+
+    background-color: rgb(255, 235, 235);
+    width: 300px;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+    
+}
+
+.text{
+    justify-items: center;
+    justify-content: center;
+    font-family: 'Rubik';
+    
+
+}
+
+.image{
+   display: flex;
+   flex-direction: column;
+    width: 100px;
+    height: auto;
+    margin: 12px;
+}
+
+.h3 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+    font-size: 42px;
+    color: crimson;
+}
+
+.button{
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin: 40px;
+    padding: 15px;
+
+}

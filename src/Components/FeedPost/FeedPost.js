@@ -32,7 +32,27 @@ import("../FeedPost/FeedPost.css");
       </div>
 
       <section>
-        <div className="formA4"><br/>Card<br/> ******WIP******</div>
+        <div className="formA4"><br/>
+        
+                <div className="container">
+                        {userPostStorage.map((utilisateur,id)=>(
+
+                            <div key={id} className="userCard">
+                            <div className="image"> <img src="yoshi.png" alt ="" /></div>
+
+                            <div className="text">
+                                <h3 className="h3">{utilisateur.first_name}</h3>
+                                <h4>{utilisateur.last_name}</h4>    
+                            </div>
+                            <div className="bottomButton">
+                                <button className="button" > Ecrire un post </button>
+                            </div>
+                            </div>
+
+                        ))}
+
+
+                    </div></div>
       </section>
 
       <div className="containerCardFeed">
