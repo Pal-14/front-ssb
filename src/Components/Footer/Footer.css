@@ -1,0 +1,10 @@
+.footerSmash{
+    background-color: red;
+    height: 130px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom:0px;
+    width:100%;
+}
+

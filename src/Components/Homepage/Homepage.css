@@ -1,0 +1,26 @@
+.container {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.brown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+    border:5px solid black;
+    
+}
+.main, .one, .two{
+    display: flex;
+    border:2 px solid black;
+    align-items: center;
+    align-content: center;
+}
+
+.one {
+    border-right: 2px solid black;
+    height: 200px;
+    width: 70%;
+}

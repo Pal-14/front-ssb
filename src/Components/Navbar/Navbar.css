@@ -1,0 +1,7 @@
+.navbarSmash{
+    background-color:rgb(231, 0, 18);
+}
+.nabarLinks{
+    display: flex;
+    flex-direction: column;
+}
