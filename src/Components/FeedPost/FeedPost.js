@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Marquee from "../Marquee/Marquee";
 import("../FeedPost/FeedPost.css");
 
- function FeedPost(props) {
+function FeedPost(props) {
   const serverURL = "http://localhost:5000";
 
   function getAllUserPost() {
@@ -27,32 +27,36 @@ import("../FeedPost/FeedPost.css");
         <div className="titleFeed">
           <h4 classname="titleh1">Accueil</h4>
           <h1 classname="titleh4">Bienvenue au Pays</h1>
-          <h2><Marquee />{userPostStorage.length} posts</h2>
+          <h2>
+            {/* Il y a actuellement {userPostStorage.length} posts sur cette Page */}
+            <Marquee />
+          </h2>
         </div>
       </div>
 
       <section>
-        <div className="formA4"><br/>
-        
-                <div className="container">
-                        {userPostStorage.map((utilisateur,id)=>(
+        <div className="formA4">
+          <br />
 
-                            <div key={id} className="userCard">
-                            <div className="image"> <img src="yoshi.png" alt ="" /></div>
+          <div className="container">
+            {userPostStorage.map((lepost, id) => (
+              <div key={id} className="userCard">
+                <div className="image">
+                  {" "}
+                  <img src="yoshi.png" alt="" />
+                </div>
 
-                            <div className="text">
-                                <h3 className="h3">{utilisateur.first_name}</h3>
-                                <h4>{utilisateur.last_name}</h4>    
-                            </div>
-                            <div className="bottomButton">
-                                <button className="button" > Ecrire un post </button>
-                            </div>
-                            </div>
-
-                        ))}
-
-
-                    </div></div>
+                <div className="text">
+                  <h3 className="h3">{lepost.name}</h3>
+                  <h4>{lepost.name}</h4>
+                </div>
+                <div className="bottomButton">
+                  <button className="button"> Ecrire un post </button>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
 
       <div className="containerCardFeed">

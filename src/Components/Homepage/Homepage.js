@@ -7,6 +7,11 @@ function Homepage(){
 
 const serverUrl = "http://localhost:5000"
 
+
+
+
+
+
 function getAllPersos (){
 
     return fetch (`${serverUrl}/perso`)

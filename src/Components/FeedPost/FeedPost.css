@@ -38,7 +38,7 @@ h2 {
 }
 .titleFeed {
     position: absolute;
-    top: 2%;
+    top: 10%;
     width: 100%;
     color: rgb(255, 255, 255);
     font-size: 60px;
@@ -167,7 +167,9 @@ p {
     height: auto;
     margin: 12px;
 }
-
+.yoshname{
+    color: b;
+}
 .h3 {
     font-family: 'Rubik', sans-serif;
     font-weight: 800;

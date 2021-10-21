@@ -1,16 +1,7 @@
-.navMe {
-    display:flex;
-    justify-content: space-between;
-    height: 50px;
-    background-color: red;
-        width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.navbarSmash{
+    background-color:rgb(231, 0, 18);
 }
-
-
-.containerNav {
-    width: 100%;
-    
+.nabarLinks{
+    display: flex;
+    flex-direction: column;
 }
