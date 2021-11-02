@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <NavbarP />
+        <NavbarP /> 
         <Switch_ben />
         <Footer />
       </Router>
